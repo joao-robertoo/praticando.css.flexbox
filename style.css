@@ -1,22 +1,35 @@
-.container{
-	width:70vw;
-	height:70vh;
-	background-color:#021017;
+.container {
+	width: 70vw;
+	height: 70vh;
+	background-color: #021017;
+	display: flex;
+	flex-direction: row;
+	gap: 50px;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 }
 
-.itens{
-	width:100px;
-	height:100px;
+.itens {
+	width: 100px;
+	height: 100px;
+	flex-grow: 1;
 }
 
-.azul{
-	background-color:#6bd1ff;
+/* código omitido */
+
+.azul {
+  background-color: #6bd1ff;
+  order: 3;
+  flex: 1 1 150px;
 }
 
-.amarelo{
-	background-color:#ffba05;
+.amarelo {
+  background-color: #ffba05;
+  order: 1;
 }
 
-.vermelho{
-	background-color:#f16165;
+.vermelho {
+  background-color: #f16165;
+  order: 2;
 }
